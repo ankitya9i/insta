@@ -1,0 +1,28 @@
+/* Equivalent normal CSS for the provided classes */
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 1.5px;
+    border: 2px solid #f00; /* Border color: red */
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    position: relative;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+.user_name_story{
+    /* Equivalent CSS for the provided classes */
+    position: relative;
+    font-size: 0.75rem; /* Equivalent to text-xs in Tailwind CSS */
+    width: 3.5rem; /* Equivalent to w-14 in Tailwind CSS */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    left: -2px;
+
+}

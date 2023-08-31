@@ -1,0 +1,25 @@
+.story {
+    display: flex;
+    gap: 0.5rem; /* Equivalent to space-x-2 in Tailwind CSS */
+    padding: 1.5rem; /* Equivalent to p-6 in Tailwind CSS */
+    background-color:rgb(0, 0, 0); /* Eqrguivalent to bg-white in Tailwind CSS *//* Equivalent to mt-8 in Tailwind CSS */
+    border: 1px solid #ccc; /* Equivalent to border-gray-200 in Tailwind CSS */
+    border-radius: 0.25rem; /* Equivalent to rounded-sm in Tailwind CSS */
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+
+.story::-webkit-scrollbar {
+    /* Equivalent to scrollbar-thin in Tailwind CSS */
+    overflow: hidden;
+    scroll-behavior: smooth;
+    border: none;
+    border-right: 1px solid rgb(52, 50, 50);
+}
+
+.story::-webkit-scrollbar-thumb {
+   
+    background-color:white; /* Equivalent to scrollbar-thumb-black in Tailwind CSS */
+}
